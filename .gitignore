@@ -1,0 +1,5 @@
+.env
+database.db
+*.pkl
+__pycache__/
+.ipynb_checkpoints/
