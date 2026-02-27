@@ -8,7 +8,9 @@ This project demonstrates a complete Data Science pipeline including API ingesti
 ---
 
 ## 🎥 Project Demo
-[▶ Watch Full Demo Video](assets/demo.mp4)
+
+https://github.com/user-attachments/assets/98a3ff1b-4f8f-4156-abfa-882a093fc4f3
+
 
 <video src="assets/demo.mp4" controls width="800"></video>
 
