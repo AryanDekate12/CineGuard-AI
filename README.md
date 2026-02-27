@@ -6,6 +6,12 @@ CineGuard AI is an end-to-end anomaly detection system that identifies potential
 This project demonstrates a complete Data Science pipeline including API ingestion, feature engineering, unsupervised learning, anomaly score calibration, secure API handling, and interactive deployment using Streamlit.
 
 ---
+## 🚀 Try the Live Application
+
+👉 **If you want to try the application, click here:**  
+🔗 https://https://cineguard-ai.streamlit.app/
+
+---
 
 ## 🎥 Project Demo
 
@@ -87,9 +93,38 @@ The system detects statistical anomalies in rating behavior, not confirmed fraud
 ---
 
 ## 📂 Project Structure
+## 📂 Project Structure
 
-
-
+```
+CineGuard-AI/
+│
+├── app.py
+│   └── Main Streamlit application (UI + Prediction Logic)
+│
+├── cineguard_final.ipynb
+│   └── Model training, feature engineering & calibration
+│
+├── model.pkl
+│   └── Trained Isolation Forest model
+│
+├── scaler.pkl
+│   └── Feature scaling object (MinMaxScaler)
+│
+├── score_range.pkl
+│   └── Min/Max decision scores for normalization
+│
+├── requirements.txt
+│   └── Python dependencies required to run the project
+│
+├── .gitignore
+│   └── Files ignored from version control
+│
+├── README.md
+│   └── Project documentation
+│
+└── assets/
+    └── demo video & media files
+```
 ---
 
 ## ⚙️ Installation & Setup
