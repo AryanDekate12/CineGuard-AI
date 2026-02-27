@@ -6,11 +6,17 @@ import numpy as np
 from datetime import datetime
 from textblob import TextBlob
 import plotly.graph_objects as go
+
 import os
+import streamlit as st
 from dotenv import load_dotenv
 
 load_dotenv()
+
 OMDB_API_KEY = os.getenv("OMDB_API_KEY")
+
+if not OMDB_API_KEY:
+    OMDB_API_KEY = st.secrets["OMDB_API_KEY"]
 # =============================
 # CONFIG
 # =============================
@@ -190,4 +196,5 @@ if query:
                 st.error("Movie details not found.")
 
     else:
+
         st.warning("No matching movies found.")
